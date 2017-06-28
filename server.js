@@ -15,6 +15,7 @@ const port = 5000;
 
 app.use(bodyparser.json());
 app.use(express.static(__dirname + '/src'));
+
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   hot: true,
