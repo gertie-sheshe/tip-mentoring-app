@@ -9,7 +9,6 @@ import webpack from 'webpack';
 
 let compiler = webpack(webpackConfig);
 
-// App instance
 const app = express();
 const port = 5000;
 
